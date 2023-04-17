@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import React from 'react'
+import style from "./Layout-style.module.css"
 import Navbar from './Navbar'
+import Footer from './Footer'
+
 
 export default function Layout({ children, title, description }) {
     return (
@@ -12,11 +15,11 @@ export default function Layout({ children, title, description }) {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <Navbar></Navbar>
+            <Navbar />
 
-            <main>{children}</main>
+            <main className={style.mainContainer}>{children}</main>
 
-            <footer>footer</footer>
+            <Footer />
         </div>
     )
 }

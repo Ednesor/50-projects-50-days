@@ -1,5 +1,9 @@
 :root{
-  --special-char-color: blue;
+  --special-char-color: rgb(27, 154, 170);
+  --main-dark-color: rgb(5, 5, 5);
+  --main-light-color: rgb(255, 255, 255);
+  --primary-light-color: rgb(245, 241, 227);
+  --secondary-light-color: rgb(221, 219, 203);
 }
 * {
   box-sizing: content-box;
@@ -9,4 +13,7 @@
 
 html {
   font-family: 'Nunito', sans-serif;
+}
+body{
+  background-color: var(--primary-light-color);
 }
