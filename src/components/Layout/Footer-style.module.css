@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    min-height: 80px;
+    background-color: var(--main-dark-color);
+}
+.list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.item{
+    list-style-type: none;
+    margin: 10px 10px 0 10px;
+}
+.link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.name{
+    color: var(--main-light-color);
+    margin-left: 5px;
+}
+.icon{
+    color: var(--main-light-color);
+    width: 15px;
+}
+.copyright{
+    color: var(--main-light-color);
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+}
