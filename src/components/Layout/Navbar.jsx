@@ -4,11 +4,12 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <nav className='container'>
-        <ul className='ul-container'>
+    <nav className={style.container}>
+        <span className={style.name}><span>&lt;</span>Edgardo Funes<span>/&gt;</span></span>
+        <ul className={style.ul_container}>
             <li><Link href={"#about"}>About</Link></li>
-            <li><Link href={"#index"}>index</Link></li>
-            <li><Link href={"#contact"}>contact</Link></li>
+            <li><Link href={"#index"}>Index</Link></li>
+            <li><Link href={"#contact"}>Contact</Link></li>
         </ul>
     </nav>
   )
