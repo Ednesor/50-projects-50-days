@@ -7,9 +7,9 @@ export default function Navbar() {
     <nav className={style.container}>
         <span className={style.name}><span>&lt;</span>Edgardo Funes<span>/&gt;</span></span>
         <ul className={style.ul_container}>
-            <li><Link href={"#about"}>About</Link></li>
-            <li><Link href={"#index"}>Index</Link></li>
-            <li><Link href={"#contact"}>Contact</Link></li>
+            <li><Link href={"/about"}>About</Link></li>
+            <li><Link href={"/index"}>Index</Link></li>
+            <li><Link href={"/contact"}>Contact</Link></li>
         </ul>
     </nav>
   )
