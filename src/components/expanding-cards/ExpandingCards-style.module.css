@@ -1,0 +1,20 @@
+.container_ext{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background-color: red;
+    display: flex;
+    padding: 50px 0 50px 0;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.image {
+    width: 7%;
+    border-radius: 50px;
+}
+.image2{
+    width: 60%;
+}
