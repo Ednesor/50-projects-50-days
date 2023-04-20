@@ -13,7 +13,7 @@ export default function Component() {
   
   let component;
   let compTitle;
-  
+
   switch (id) {
     case "expanding-cards":
       component = <ExpandingCards />;
@@ -31,11 +31,3 @@ export default function Component() {
     </Layout>
   )
 }
-
-// export async function getStaticPaths(){
-//   try {
-//     const res = await fetch("");
-//   } catch (error) {
-//     console.log(error);
-//   }
-// }
