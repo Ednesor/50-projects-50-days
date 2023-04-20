@@ -12,7 +12,7 @@ export default function Home() {
         <div className={style.flashlight}></div>
       </div>
       <h1 className={style.title}>Welcome to my <span className={style.subtitle}>personal challenge</span></h1>
-      <Link className={style.button} href={"/index"}>Get started</Link>
+      <Link className={style.button} href={"/about"}>Get started</Link>
     </Layout>
   )
 }
