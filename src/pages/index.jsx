@@ -10,9 +10,9 @@ export default function Home() {
     <Layout>
       <div className={style.container}>
         <div className={style.flashlight}></div>
-        <h1 className={style.title}>Welcome to my <span className={style.subtitle}>personal challenge</span></h1>
-        <Link className={style.button} href={"/index"}>Get started</Link>
       </div>
+      <h1 className={style.title}>Welcome to my <span className={style.subtitle}>personal challenge</span></h1>
+      <Link className={style.button} href={"/index"}>Get started</Link>
     </Layout>
   )
 }
