@@ -12,12 +12,11 @@ export default function Component() {
   const { id } = router.query;
   
   let component;
-  let compTitle;
+  let compTitle = idToString(id);
 
   switch (id) {
     case "expanding-cards":
       component = <ExpandingCards />;
-      compTitle = idToString(id);
       break;
   
     default:
