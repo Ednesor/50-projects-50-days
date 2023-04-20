@@ -53,10 +53,8 @@
 }
 
 .ul_container li:hover::after {
-    opacity: 1;
     width: 100%;
     box-shadow: 0px 0px 5px var(--special-char-color);
-    ;
 }
 
 .name {
