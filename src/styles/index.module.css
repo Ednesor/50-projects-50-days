@@ -34,7 +34,7 @@
     position: fixed;
     top: 50vh;
     left: calc(50vw - 100px);
-    background-color: var(--secondary-light-color);
+    background-color: var(--main-dark-color);
     transition: all .15s;
     color: white;
     font-weight: 600;
