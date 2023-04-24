@@ -9,60 +9,11 @@ export default function Index() {
       <h1 className={style.mainTitle}>All projects</h1>
       <div className={style.container}>
         <IndexCards className={style.cards}
-          device={"both"}
-          date={["01", "may"]}
-          title={"Proyecto 1"}
-          description={"Este proyecto fue realizado con mucho amor XD, Este proyecto fue realizado con mucho amor XD, Este proyecto fue realizado con mucho amor XD, Este proyecto fue realizado con mucho amor XD, Este proyecto fue realizado con mucho amor XD, Este proyecto fue realizado con mucho amor XD. amor XD, Este proyecto fue realizado con mucho amor XD, Este proyecto fue realizado con mucho amor XD, Este proyecto fue realizado con mucho amor XD, Este proyecto fue realizado con mucho amor XD, Este proyecto fue realizado con mucho amor XD.amor XD, Este proyecto fue realizado con mucho amor XD, Este proyecto fue realizado con mucho amor XD, Este proyecto fue realizado con mucho amor XD, Este proyecto fue realizado con mucho amor XD, Este proyecto fue realizado con mucho amor XD."}
-          url={"proyecto-formato-url"}
-        />
-        <IndexCards
-          device={"both"}
-          date={["01", "may"]}
-          title={"Proyecto 1"}
-          description={"Este proyecto fue realizado con mucho amor XD"}
-          url={"proyecto-formato-url"}
-        />
-        <IndexCards
-          device={"both"}
-          date={["01", "may"]}
-          title={"Proyecto 1"}
-          description={"Este proyecto fue realizado con mucho amor XD"}
-          url={"proyecto-formato-url"}
-        />
-        <IndexCards
-          device={"both"}
-          date={["01", "may"]}
-          title={"Proyecto 1"}
-          description={"Este proyecto fue realizado con mucho amor XD"}
-          url={"proyecto-formato-url"}
-        />
-        <IndexCards
-          device={"both"}
-          date={["01", "may"]}
-          title={"Proyecto 1"}
-          description={"Este proyecto fue realizado con mucho amor XD"}
-          url={"proyecto-formato-url"}
-        />
-        <IndexCards
-          device={"both"}
-          date={["01", "may"]}
-          title={"Proyecto 1"}
-          description={"Este proyecto fue realizado con mucho amor XD"}
-          url={"proyecto-formato-url"}
-        />
-        <IndexCards
-          device={"both"}
-          date={["01", "may"]}
-          title={"Proyecto 1"}
-          description={"Este proyecto fue realizado con mucho amor XD"}
-          url={"proyecto-formato-url"}
-        />
-        <IndexCards
-          device={"both"}
-          date={["01", "may"]}
-          title={"Proyecto 1"}
-          description={"Este proyecto fue realizado con mucho amor XD"}
-          url={"proyecto-formato-url"}
+          device={"desktop"}
+          date={["24", "april"]}
+          title={"Expanding Cards"}
+          description={"This component allows you to preview several images by expanding the ones you want to see"}
+          url={"expanding-cards"}
         />
       </div>
     </Layout>
