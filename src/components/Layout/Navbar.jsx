@@ -19,7 +19,7 @@ export default function Navbar() {
       <ul className={style.ul_container}>
         <li><Link href={"/about"}>About</Link></li>
         <li><Link href={"/index"}>Index</Link></li>
-        <li><Link href={"/contact"}>Contact</Link></li>
+        {/* <li><Link href={"/contact"}>Contact</Link></li> */}
       </ul>
     </nav>
   )
