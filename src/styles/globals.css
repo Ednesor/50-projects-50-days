@@ -4,6 +4,22 @@
   --main-light-color: rgb(255, 255, 255);
   --primary-light-color: rgb(245, 241, 227);
   --secondary-light-color: rgb(4, 7, 66);
+
+  --tag-color-1: linear-gradient(90deg, #ff8800 0%, #eaff00 100%);
+  --tag-color-2: linear-gradient(90deg, #474b74 0%, #969eec 100%);
+  --tag-color-3: linear-gradient(90deg, #206400 0%, #43c937 100%);
+  --tag-color-4: linear-gradient(90deg, #245cc5 0%, #2ad6f5 100%);
+  --tag-color-5: linear-gradient(90deg, #1b1d83 0%, #3d3aec 100%);
+  --tag-color-6: linear-gradient(90deg, #534324 0%, #a8934d 100%);
+  --tag-color-7: linear-gradient(90deg, #741b74 0%, #ec41fc 100%);
+
+  --text-color-1: #ff8800;
+  --text-color-2: #474b74;
+  --text-color-3: #206400;
+  --text-color-4: #245cc5;
+  --text-color-5: #1b1d83;
+  --text-color-6: #534324;
+  --text-color-7: #741b74;
 }
 * {
   box-sizing: content-box;

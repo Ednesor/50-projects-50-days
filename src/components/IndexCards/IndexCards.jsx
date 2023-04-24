@@ -11,7 +11,7 @@ export default function IndexCards({ device, date, title, description, url }) {
         <Link className={style.container} href={`component/${url}`}>
             <div className={style.bodyContainer}>
                 <div className={style.dateContainer}>
-                    <div>
+                    <div className={style.dateCont}>
                         <p className={style.date}>{date[0]}</p>
                         <p className={style.month}>{date[1].toUpperCase()}</p>
                     </div>

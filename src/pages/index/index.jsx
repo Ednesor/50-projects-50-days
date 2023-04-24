@@ -22,6 +22,48 @@ export default function Index() {
           description={"Este proyecto fue realizado con mucho amor XD"}
           url={"proyecto-formato-url"}
         />
+        <IndexCards
+          device={"both"}
+          date={["01", "may"]}
+          title={"Proyecto 1"}
+          description={"Este proyecto fue realizado con mucho amor XD"}
+          url={"proyecto-formato-url"}
+        />
+        <IndexCards
+          device={"both"}
+          date={["01", "may"]}
+          title={"Proyecto 1"}
+          description={"Este proyecto fue realizado con mucho amor XD"}
+          url={"proyecto-formato-url"}
+        />
+        <IndexCards
+          device={"both"}
+          date={["01", "may"]}
+          title={"Proyecto 1"}
+          description={"Este proyecto fue realizado con mucho amor XD"}
+          url={"proyecto-formato-url"}
+        />
+        <IndexCards
+          device={"both"}
+          date={["01", "may"]}
+          title={"Proyecto 1"}
+          description={"Este proyecto fue realizado con mucho amor XD"}
+          url={"proyecto-formato-url"}
+        />
+        <IndexCards
+          device={"both"}
+          date={["01", "may"]}
+          title={"Proyecto 1"}
+          description={"Este proyecto fue realizado con mucho amor XD"}
+          url={"proyecto-formato-url"}
+        />
+        <IndexCards
+          device={"both"}
+          date={["01", "may"]}
+          title={"Proyecto 1"}
+          description={"Este proyecto fue realizado con mucho amor XD"}
+          url={"proyecto-formato-url"}
+        />
       </div>
     </Layout>
   )
