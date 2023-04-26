@@ -1,0 +1,101 @@
+.menu {
+    background-color: #FF7979;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    position: absolute;
+    top: -25px;
+    left: -100px;
+    transition: transform .5s linear;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* .menu:hover{
+    transform: rotate(-90deg);
+
+} */
+
+.iconMenu,
+.iconCancel {
+    font-size: 30px;
+    color: white;
+    width: 100px;
+    position: relative;
+}
+
+.iconMenu {
+    top: 125px;
+    left: 85px;
+}
+
+.iconCancel {
+    top: 120px;
+    left: -85px;
+}
+
+.container {
+    width: 100vw;
+    background-color: #333333;
+    overflow-x: hidden;
+}
+
+.subContainer {
+    width: 1000px;
+    max-width: 90%;
+    margin: 0 auto 0 auto;
+    padding: 90px 0 90px 0;
+}
+
+.rotateDiv {
+    transition: transform .5s linear;
+    transform-origin: 0% 0%;
+    width: 100%;
+    z-index: 0;
+    background-color: white;
+}
+
+.subtitle {
+    font-size: 13px;
+    color: gray;
+    font-style: italic;
+    margin: -5px 0 15px 0;
+}
+
+.subContainer h3 {
+    margin: 15px 0 10px 0;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.navbar{
+    position: fixed;
+    bottom: 10%;
+    /* border: 1px solid black; */
+    width: 500px;
+    list-style: none;
+    left: -300px;
+}
+.navbar li{
+    margin: 40px 0% 10px 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+.navbar li:nth-of-type(1){
+    transition: margin-left 1s;
+}
+.navbar li:nth-of-type(2){
+    transition: margin-left 1.2s;
+}
+.navbar li:nth-of-type(3){
+    transition: margin-left 1.5s;
+}
+.navbar li span{
+    margin-left: 5px;
+}

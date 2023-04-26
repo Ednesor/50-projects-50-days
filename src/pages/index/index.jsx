@@ -22,6 +22,13 @@ export default function Index() {
           description={"This component allows to move in a menu through steps"}
           url={"progress-steps"}
         />
+        <IndexCards className={style.cards}
+          device={"desktop"}
+          date={["26", "april"]}
+          title={"Rotating Navigation Animation"}
+          description={"A very nice and striking navbar"}
+          url={"rotating-navigation"}
+        />
       </div>
     </Layout>
   )

@@ -4,6 +4,7 @@ import style from "./id.module.css"
 import Layout from '@/components/Layout/Layout';
 import ExpandingCards from '@/components/expanding-cards/ExpandingCards';
 import ProgressSteps from '@/components/progress-steps/ProgressSteps';
+import RotatingNavigation from '@/components/rotating-navigation/RotatingNavigation';
 
 const idToString = (id = "") => {
   return id.charAt(0).toUpperCase() + id.replace("-", " ").slice(1) + " | 50 projects 50 days";
@@ -22,6 +23,9 @@ export default function Component() {
       break;
     case "progress-steps":
       component = <ProgressSteps />;
+      break;
+    case "rotating-navigation":
+      component = <RotatingNavigation />;
       break;
 
     default:
