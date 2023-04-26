@@ -1,9 +1,10 @@
 import React from 'react'
 import { useRouter } from 'next/router';
-import ExpandingCards from '@/components/expanding-cards/ExpandingCards';
 import Layout from '@/components/Layout/Layout';
+import ExpandingCards from '@/components/expanding-cards/ExpandingCards';
+import ProgressSteps from '@/components/progress-steps/ProgressSteps';
 
-const idToString = (id) => {
+const idToString = (id = "") => {
   return id.charAt(0).toUpperCase() + id.replace("-", " ").slice(1) + " | 50 projects 50 days";
 }
 
@@ -17,6 +18,9 @@ export default function Component() {
   switch (id) {
     case "expanding-cards":
       component = <ExpandingCards />;
+      break;
+    case "progress-steps":
+      component = <ProgressSteps />;
       break;
   
     default:
