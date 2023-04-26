@@ -20,9 +20,9 @@ export default function ProgressSteps() {
 
     return (
         <div className={style.container}>
-            <div className={style.steps}>
                 <hr className={style.line} />
-                <hr className={style.progress} style={{width: `${step*70/3}%`}} />
+                <hr className={style.progress} style={{width: `${step*75/3}%`}} />
+            <div className={style.steps}>
                 <div className={style.stepActive} style={{border: "3px solid rgb(26, 171, 255)"}}>1</div>
                 <div style={step >= 1 ? {border: "3px solid rgb(26, 171, 255)"} : null}>2</div>
                 <div style={step >= 2 ? {border: "3px solid rgb(26, 171, 255)"} : null}>3</div>

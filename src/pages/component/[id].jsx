@@ -1,5 +1,6 @@
 import React from 'react'
 import { useRouter } from 'next/router';
+import style from "./id.module.css"
 import Layout from '@/components/Layout/Layout';
 import ExpandingCards from '@/components/expanding-cards/ExpandingCards';
 import ProgressSteps from '@/components/progress-steps/ProgressSteps';
@@ -11,7 +12,7 @@ const idToString = (id = "") => {
 export default function Component() {
   const router = useRouter();
   const { id } = router.query;
-  
+
   let component;
   let compTitle = idToString(id);
 
@@ -22,7 +23,7 @@ export default function Component() {
     case "progress-steps":
       component = <ProgressSteps />;
       break;
-  
+
     default:
       component = (<div><h1>The component doesn't exists</h1></div>)
       break;
@@ -30,7 +31,9 @@ export default function Component() {
 
   return (
     <Layout title={compTitle}>
+      <div className={style.container}>
         {component}
+      </div>
     </Layout>
   )
 }
