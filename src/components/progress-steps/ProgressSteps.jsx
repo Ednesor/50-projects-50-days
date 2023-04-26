@@ -8,7 +8,7 @@ const disabledButton = {
 
 export default function ProgressSteps() {
 
-    const [step, setStep] = useState(1);
+    const [step, setStep] = useState(0);
     const maxStep = 3;
 
     const handlePrev = () => {
