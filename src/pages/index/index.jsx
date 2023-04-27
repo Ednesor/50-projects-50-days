@@ -29,6 +29,13 @@ export default function Index() {
           description={"A very nice and striking navbar"}
           url={"rotating-navigation"}
         />
+        <IndexCards className={style.cards}
+          device={"both"}
+          date={["27", "april"]}
+          title={"Hidden search"}
+          description={"A search bar that expands and collapses"}
+          url={"hidden-search"}
+        />
       </div>
     </Layout>
   )

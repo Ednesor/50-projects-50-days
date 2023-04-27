@@ -1,0 +1,26 @@
+.container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.search{
+    width: 200px;
+    border: none;
+    outline: none;
+    height: 50px;
+    padding: 0 10px 0 10px;
+    font-size: 18px;
+    transition: all .25s;
+}
+.button{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.icon{
+    font-size: 30px;
+}
