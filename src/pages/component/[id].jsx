@@ -1,5 +1,12 @@
 import React from 'react'
 import { useRouter } from 'next/router';
+import {
+  EXPADING_CARDS,
+  PROGRESS_STEPS,
+  ROTATING_NAVIGATION,
+  HIDDEN_SEARCH,
+  BLURRY_LOADING
+} from "../../consts"
 import style from "./id.module.css"
 import Layout from '@/components/Layout/Layout';
 import ExpandingCards from '@/components/expanding-cards/ExpandingCards';
@@ -19,16 +26,19 @@ export default function Component() {
   let compTitle = idToString(id);
 
   switch (id) {
-    case "expanding-cards":
+    case EXPADING_CARDS:
       component = <ExpandingCards />;
       break;
-    case "progress-steps":
+    case PROGRESS_STEPS:
       component = <ProgressSteps />;
       break;
-    case "rotating-navigation":
+    case ROTATING_NAVIGATION:
       component = <RotatingNavigation />;
       break;
-    case "hidden-search":
+    case HIDDEN_SEARCH:
+      component = <HiddenSearch />;
+      break;
+    case BLURRY_LOADING:
       component = <HiddenSearch />;
       break;
 

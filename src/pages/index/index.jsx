@@ -2,6 +2,13 @@ import Layout from '@/components/Layout/Layout'
 import React from 'react'
 import style from "./index.module.css"
 import IndexCards from '@/components/IndexCards/IndexCards'
+import {
+  EXPADING_CARDS,
+  PROGRESS_STEPS,
+  ROTATING_NAVIGATION,
+  HIDDEN_SEARCH,
+  BLURRY_LOADING
+} from "../../consts"
 
 export default function Index() {
   return (
@@ -13,28 +20,35 @@ export default function Index() {
           date={["24", "april"]}
           title={"Expanding Cards"}
           description={"This component allows you to preview several images by expanding the ones you want to see"}
-          url={"expanding-cards"}
+          url={EXPADING_CARDS}
         />
         <IndexCards className={style.cards}
           device={"desktop"}
           date={["25", "april"]}
           title={"Progress Steps"}
           description={"This component allows to move in a menu through steps"}
-          url={"progress-steps"}
+          url={PROGRESS_STEPS}
         />
         <IndexCards className={style.cards}
           device={"desktop"}
           date={["26", "april"]}
           title={"Rotating Navigation Animation"}
           description={"A very nice and striking navbar"}
-          url={"rotating-navigation"}
+          url={ROTATING_NAVIGATION}
         />
         <IndexCards className={style.cards}
           device={"both"}
           date={["27", "april"]}
           title={"Hidden search"}
           description={"A search bar that expands and collapses"}
-          url={"hidden-search"}
+          url={HIDDEN_SEARCH}
+        />
+        <IndexCards className={style.cards}
+          device={"both"}
+          date={["28", "april"]}
+          title={"Blurry Loading"}
+          description={"A page load component that turns its content from blurry to sharp depending on the load percentage"}
+          url={BLURRY_LOADING}
         />
       </div>
     </Layout>
