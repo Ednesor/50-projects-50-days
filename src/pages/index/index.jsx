@@ -7,7 +7,9 @@ import {
   PROGRESS_STEPS,
   ROTATING_NAVIGATION,
   HIDDEN_SEARCH,
-  BLURRY_LOADING
+  BLURRY_LOADING,
+  SCROLL_ANIMATION,
+  SPLIT_LANDING
 } from "../../consts"
 
 export default function Index() {
@@ -49,6 +51,20 @@ export default function Index() {
           title={"Blurry Loading"}
           description={"A page load component that turns its content from blurry to sharp depending on the load percentage"}
           url={BLURRY_LOADING}
+        />
+        <IndexCards className={style.cards}
+          device={"both"}
+          date={["01", "may"]}
+          title={"Scroll animation"}
+          description={"Cards that are displayed according to the scroll"}
+          url={SCROLL_ANIMATION}
+        />
+        <IndexCards className={style.cards}
+          device={"desktop"}
+          date={["02", "may"]}
+          title={"Split landing page"}
+          description={"A landing page with a nice animation for two images"}
+          url={SPLIT_LANDING}
         />
       </div>
     </Layout>
