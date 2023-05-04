@@ -6,7 +6,8 @@ import {
   ROTATING_NAVIGATION,
   HIDDEN_SEARCH,
   BLURRY_LOADING,
-  SCROLL_ANIMATION
+  SCROLL_ANIMATION,
+  SPLIT_LANDING
 } from "../../consts"
 import style from "./id.module.css"
 import Layout from '@/components/Layout/Layout';
@@ -16,6 +17,7 @@ import RotatingNavigation from '@/components/rotating-navigation/RotatingNavigat
 import HiddenSearch from '@/components/hidden-search/HiddenSearch';
 import BlurryLoading from '@/components/blurry-loading/BlurryLoading';
 import ScrollAnimation from '@/components/scroll-animation/ScrollAnimation';
+import SplitLanding from '@/components/split-landing-page/SplitLanding';
 
 const idToString = (id = "") => {
   return id.charAt(0).toUpperCase() + id.replace("-", " ").slice(1) + " | 50 projects 50 days";
@@ -46,6 +48,9 @@ export default function Component() {
       break;
     case SCROLL_ANIMATION:
       component = <ScrollAnimation />;
+      break;
+    case SPLIT_LANDING:
+      component = <SplitLanding />;
       break;
 
     default:
