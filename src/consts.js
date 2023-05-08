@@ -5,6 +5,7 @@ export const HIDDEN_SEARCH = "hidden-search";
 export const BLURRY_LOADING = "blurry-loading";
 export const SCROLL_ANIMATION = "scroll-animation";
 export const SPLIT_LANDING = "split-landing";
+export const FORM_WAVE = "form-wave";
 
 export const components = [
     {
@@ -55,5 +56,12 @@ export const components = [
         title: "Split landing page",
         description: "A landing page with a nice animation for two images",
         url: SPLIT_LANDING,
+    },
+    {
+        device: "both",
+        date: ["03", "may"],
+        title: "Form Wave",
+        description: "A form with a wave effect on the text fields as a placeholder",
+        url: FORM_WAVE,
     },
 ];

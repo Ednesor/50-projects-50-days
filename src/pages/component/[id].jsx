@@ -7,7 +7,8 @@ import {
   HIDDEN_SEARCH,
   BLURRY_LOADING,
   SCROLL_ANIMATION,
-  SPLIT_LANDING
+  SPLIT_LANDING,
+  FORM_WAVE
 } from "../../consts"
 import style from "./id.module.css"
 import Layout from '@/components/Layout/Layout';
@@ -18,6 +19,7 @@ import HiddenSearch from '@/components/hidden-search/HiddenSearch';
 import BlurryLoading from '@/components/blurry-loading/BlurryLoading';
 import ScrollAnimation from '@/components/scroll-animation/ScrollAnimation';
 import SplitLanding from '@/components/split-landing-page/SplitLanding';
+import FormWave from '@/components/form-wave/FormWave';
 
 const idToString = (id = "") => {
   return id.charAt(0).toUpperCase() + id.replace("-", " ").slice(1) + " | 50 projects 50 days";
@@ -51,6 +53,9 @@ export default function Component() {
       break;
     case SPLIT_LANDING:
       component = <SplitLanding />;
+      break;
+    case FORM_WAVE:
+      component = <FormWave />;
       break;
 
     default:
