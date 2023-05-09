@@ -10,7 +10,8 @@ import {
   SPLIT_LANDING,
   FORM_WAVE,
   SOUND_BOARD,
-  DAD_JOKES
+  DAD_JOKES,
+  EVENT_KEYCODES
 } from "../../consts"
 import style from "./id.module.css"
 import Layout from '@/components/Layout/Layout';
@@ -24,6 +25,7 @@ import SplitLanding from '@/components/split-landing-page/SplitLanding';
 import FormWave from '@/components/form-wave/FormWave';
 import SoundBoard from '@/components/sound-board/SoundBoard';
 import DadJokes from '@/components/dad-jokes/DadJokes';
+import EventKeyCodes from '@/components/event-keycodes/EventKeyCodes';
 
 const idToString = (id = "") => {
   return id.charAt(0).toUpperCase() + id.replace("-", " ").slice(1) + " | 50 projects 50 days";
@@ -66,6 +68,9 @@ export default function Component() {
       break;
     case DAD_JOKES:
       component = <DadJokes />;
+      break;
+    case EVENT_KEYCODES:
+      component = <EventKeyCodes />;
       break;
 
     default:

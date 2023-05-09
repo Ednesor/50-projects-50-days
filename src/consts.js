@@ -8,6 +8,7 @@ export const SPLIT_LANDING = "split-landing";
 export const FORM_WAVE = "form-wave";
 export const SOUND_BOARD = "sound-board";
 export const DAD_JOKES = "dad-jokes";
+export const EVENT_KEYCODES = "event-keycodes";
 
 export const components = [
     {
@@ -70,7 +71,7 @@ export const components = [
         device: "both",
         date: ["04", "may"],
         title: "Sound Board",
-        description: "a sound board that plays fun sounds",
+        description: "A sound board that plays fun sounds",
         url: SOUND_BOARD,
     },
     {
@@ -79,5 +80,12 @@ export const components = [
         title: "Dad Jokes",
         description: "A component that generates dad's jokes, they are not laughable",
         url: DAD_JOKES,
+    },
+    {
+        device: "desktop",
+        date: ["08", "may"],
+        title: "Event KeyCodes",
+        description: "A component that returns the keycode of the input",
+        url: EVENT_KEYCODES,
     },
 ];

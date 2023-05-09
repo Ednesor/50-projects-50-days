@@ -1,0 +1,28 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.section{
+    display: inline-block;
+    margin: 10px;
+}
+.msg,
+.value{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid rgb(138, 138, 138);
+    font-size: 20px;
+    text-align: center;
+}
+
+.value{
+    width: 100px;
+    font-weight: 700;
+}
+
+.name{
+    text-align: center;
+    font-weight: 700;
+    opacity: 0.6;
+}
