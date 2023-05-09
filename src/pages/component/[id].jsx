@@ -9,7 +9,8 @@ import {
   SCROLL_ANIMATION,
   SPLIT_LANDING,
   FORM_WAVE,
-  SOUND_BOARD
+  SOUND_BOARD,
+  DAD_JOKES
 } from "../../consts"
 import style from "./id.module.css"
 import Layout from '@/components/Layout/Layout';
@@ -22,6 +23,7 @@ import ScrollAnimation from '@/components/scroll-animation/ScrollAnimation';
 import SplitLanding from '@/components/split-landing-page/SplitLanding';
 import FormWave from '@/components/form-wave/FormWave';
 import SoundBoard from '@/components/sound-board/SoundBoard';
+import DadJokes from '@/components/dad-jokes/DadJokes';
 
 const idToString = (id = "") => {
   return id.charAt(0).toUpperCase() + id.replace("-", " ").slice(1) + " | 50 projects 50 days";
@@ -61,6 +63,9 @@ export default function Component() {
       break;
     case SOUND_BOARD:
       component = <SoundBoard />;
+      break;
+    case DAD_JOKES:
+      component = <DadJokes />;
       break;
 
     default:

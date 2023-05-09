@@ -7,6 +7,7 @@ export const SCROLL_ANIMATION = "scroll-animation";
 export const SPLIT_LANDING = "split-landing";
 export const FORM_WAVE = "form-wave";
 export const SOUND_BOARD = "sound-board";
+export const DAD_JOKES = "dad-jokes";
 
 export const components = [
     {
@@ -71,5 +72,12 @@ export const components = [
         title: "Sound Board",
         description: "a sound board that plays fun sounds",
         url: SOUND_BOARD,
+    },
+    {
+        device: "both",
+        date: ["05", "may"],
+        title: "Dad Jokes",
+        description: "A component that generates dad's jokes, they are not laughable",
+        url: DAD_JOKES,
     },
 ];

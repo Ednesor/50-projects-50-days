@@ -1,0 +1,33 @@
+.container {
+    width: 700px;
+    max-width: 90%;
+    background-color: white;
+    padding: 40px 50px 40px 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+.title {
+    text-align: center;
+    opacity: 0.6;
+}
+
+.joke {
+    margin: 50px 0 50px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.button {
+    background-color: rgb(157, 85, 224);
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    color: white;
+    display: block;
+    margin: 0 auto 0 auto;
+    cursor: pointer;
+}
