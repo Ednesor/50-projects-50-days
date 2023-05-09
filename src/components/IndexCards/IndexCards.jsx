@@ -9,7 +9,7 @@ import Link from 'next/link'
 export default function IndexCards({ device, date, title, description, url }) {
     return (
         <Link className={style.container} href={`component/${url}`}>
-            <div className={style.bodyContainer}>
+            <section className={style.bodyContainer}>
                 <div className={style.dateContainer}>
                     <div className={style.dateCont}>
                         <p className={style.date}>{date[0]}</p>
@@ -20,8 +20,8 @@ export default function IndexCards({ device, date, title, description, url }) {
                     <h2 className={style.title}>{title}</h2>
                     <p className={style.description}>{description}</p>
                 </div>
-            </div>
-            <div className={style.logoContainer}>
+            </section>
+            <section className={style.logoContainer}>
                 {
                     device === "both" ?
                         <>
@@ -34,7 +34,7 @@ export default function IndexCards({ device, date, title, description, url }) {
                             :
                             <FontAwesomeIcon icon={faMobileScreenButton} />
                 }
-            </div>
+            </section>
         </Link>
     )
 }
