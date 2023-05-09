@@ -8,7 +8,8 @@ import {
   BLURRY_LOADING,
   SCROLL_ANIMATION,
   SPLIT_LANDING,
-  FORM_WAVE
+  FORM_WAVE,
+  SOUND_BOARD
 } from "../../consts"
 import style from "./id.module.css"
 import Layout from '@/components/Layout/Layout';
@@ -20,6 +21,7 @@ import BlurryLoading from '@/components/blurry-loading/BlurryLoading';
 import ScrollAnimation from '@/components/scroll-animation/ScrollAnimation';
 import SplitLanding from '@/components/split-landing-page/SplitLanding';
 import FormWave from '@/components/form-wave/FormWave';
+import SoundBoard from '@/components/sound-board/SoundBoard';
 
 const idToString = (id = "") => {
   return id.charAt(0).toUpperCase() + id.replace("-", " ").slice(1) + " | 50 projects 50 days";
@@ -56,6 +58,9 @@ export default function Component() {
       break;
     case FORM_WAVE:
       component = <FormWave />;
+      break;
+    case SOUND_BOARD:
+      component = <SoundBoard />;
       break;
 
     default:

@@ -6,6 +6,7 @@ export const BLURRY_LOADING = "blurry-loading";
 export const SCROLL_ANIMATION = "scroll-animation";
 export const SPLIT_LANDING = "split-landing";
 export const FORM_WAVE = "form-wave";
+export const SOUND_BOARD = "sound-board";
 
 export const components = [
     {
@@ -63,5 +64,12 @@ export const components = [
         title: "Form Wave",
         description: "A form with a wave effect on the text fields as a placeholder",
         url: FORM_WAVE,
+    },
+    {
+        device: "both",
+        date: ["04", "may"],
+        title: "Sound Board",
+        description: "a sound board that plays fun sounds",
+        url: SOUND_BOARD,
     },
 ];

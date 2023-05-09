@@ -10,13 +10,14 @@ export default function Index() {
       <h1 className={style.mainTitle}>All projects</h1>
       <div className={style.container}>
         {components.map((_, i) => (
-          <IndexCards className={style.cards}
-          device={components[i].device}
-          date={components[i].date}
-          title={components[i].title}
-          description={components[i].description}
-          url={components[i].url}
-        />
+          <IndexCards key={i}
+            className={style.cards}
+            device={components[i].device}
+            date={components[i].date}
+            title={components[i].title}
+            description={components[i].description}
+            url={components[i].url}
+          />
         ))}
       </div>
     </Layout>
