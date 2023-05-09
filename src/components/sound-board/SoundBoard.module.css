@@ -12,4 +12,8 @@
     background-color: rgb(96, 48, 141);
     color: white;
     margin: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(105, 56, 151);
 }
