@@ -1,13 +1,16 @@
 .container {
+    width: 800px;
+    max-width: 90%;
+    min-height: 150px;
     color: black;
     text-decoration: none;
     display: flex;
-    min-height: 150px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.411);
     margin-bottom: 20px;
     border-radius: 7px 0 0 7px;
     z-index: -5;
     background-color: #ffffff9d;
+    margin: 10px auto 20px auto;
 }
 
 .container::before {
