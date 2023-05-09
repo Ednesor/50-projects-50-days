@@ -11,7 +11,8 @@ import {
   FORM_WAVE,
   SOUND_BOARD,
   DAD_JOKES,
-  EVENT_KEYCODES
+  EVENT_KEYCODES,
+  FAQ
 } from "../../consts"
 import style from "./id.module.css"
 import Layout from '@/components/Layout/Layout';
@@ -26,6 +27,7 @@ import FormWave from '@/components/form-wave/FormWave';
 import SoundBoard from '@/components/sound-board/SoundBoard';
 import DadJokes from '@/components/dad-jokes/DadJokes';
 import EventKeyCodes from '@/components/event-keycodes/EventKeyCodes';
+import Faq from '@/components/faq/Faq';
 
 const idToString = (id = "") => {
   return id.charAt(0).toUpperCase() + id.replace("-", " ").slice(1) + " | 50 projects 50 days";
@@ -71,6 +73,9 @@ export default function Component() {
       break;
     case EVENT_KEYCODES:
       component = <EventKeyCodes />;
+      break;
+    case FAQ:
+      component = <Faq />;
       break;
 
     default:

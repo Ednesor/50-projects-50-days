@@ -9,6 +9,7 @@ export const FORM_WAVE = "form-wave";
 export const SOUND_BOARD = "sound-board";
 export const DAD_JOKES = "dad-jokes";
 export const EVENT_KEYCODES = "event-keycodes";
+export const FAQ = "faq";
 
 export const components = [
     {
@@ -87,5 +88,12 @@ export const components = [
         title: "Event KeyCodes",
         description: "A component that returns the keycode of the input",
         url: EVENT_KEYCODES,
+    },
+    {
+        device: "both",
+        date: ["09", "may"],
+        title: "FAQ",
+        description: "A component that displays questions with a dropdown format",
+        url: FAQ,
     },
 ];
